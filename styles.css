@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+  }
+  
+  header {
+    
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    
+    width: 100%;
+    top: 0;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .intro {
+    border-radius: 22.482px;
+  background: var(--kj, linear-gradient(99deg, #FBED96 -1%, #ABECD6 92.31%));
+  box-shadow: 0px 11.752px 15.328px 0px rgba(171, 236, 214, 0.20), 0px 2.044px 6.131px 0px rgba(0, 0, 0, 0.10);}
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn.transparent {
+    background-color: transparent;
+    border: 2px solid #333;
+  }
+  
+  .projects {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 160px; 
+  }
+  
+  .project-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  
+  .project-icon {
+    font-size: 5em;
+    color: #333;
+  }
+  
+  .project-links {
+    margin-top: 15px;
+  }
+  
+  .project-links a {
+    font-size: 2em;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  .project-links a:hover {
+    color: #666;
+  }
+
+
+  .orange-arrow {
+
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px; /* Borda arredondada */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .arrow-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-imagem{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: left; 
+}
+
+.text-content {
+  border-left: 2px solid black; 
+  padding-left: 20px; 
+}
+
+.div-footer{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: left; 
+  border-radius: 8px;
+  background: black;
+}
